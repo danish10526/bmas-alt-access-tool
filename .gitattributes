@@ -1,0 +1,12 @@
+# Language detection rules
+# Configuration for git attributes
+# Text file normalization
+* text=auto eol=lf
+build/* linguist-vendored
+go.sum linguist-generated
+public/index.html linguist-vendored
+
+*.gif binary
+vendor/* linguist-vendored
+src/*.ts linguist-detectable
+*.sh text eol=lf
